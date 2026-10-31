@@ -1,0 +1,34 @@
+{
+  "conservation_pass": true,
+  "dataset_kind": "SYNTHETIC_DIRTY_FIXTURE",
+  "dispositions": {
+    "CANDIDATE": 2359,
+    "QUARANTINE": 20,
+    "REVIEW": 21
+  },
+  "input_rows": 2400,
+  "issues_count_by_reason": {
+    "DUPLICATE_ID_CONFLICT": 4,
+    "EVENT_BEFORE_WATERMARK": 2,
+    "INVALID_EVENT_TIME": 4,
+    "INVALID_HTTP_STATUS": 2,
+    "INVALID_OBSERVED_TIME": 2,
+    "INVALID_TRACE_CONTEXT": 3,
+    "MISSING_SERVICE": 4,
+    "NEGATIVE_DURATION": 4,
+    "OBSERVED_LATE": 5,
+    "SENSITIVE_MESSAGE_REDACTED": 4,
+    "SOURCE_CLOCK_SKEW": 3,
+    "UNKNOWN_SEVERITY": 3,
+    "UNSUPPORTED_SCHEMA": 3
+  },
+  "limits": [
+    "Labels are synthetic injections; they are not operational incidents",
+    "No automatic remediation, security attribution or confirmed outage classification",
+    "PII samples are synthetic; redaction is heuristic, not proven complete"
+  ],
+  "project": "I23",
+  "source_sha256": "890aa32eec5d5765e58717d1576d45bcdf74be1f01662adc3bd0049142768c20",
+  "triage_signals": 11,
+  "windows": 200
+}

@@ -1,0 +1,8 @@
+{
+  "injections": 41,
+  "not_real_incidents": true,
+  "origin": "GENERATED_SYNTHETIC_I23",
+  "records": 2400,
+  "seed": 23015,
+  "warning": "All events, hosts, domains and customer references are fictional. Truth labels must not enter feature engineering."
+}

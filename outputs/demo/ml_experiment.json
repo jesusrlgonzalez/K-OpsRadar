@@ -1,0 +1,63 @@
+{
+  "experiment": "EXPLORATORY_SYNTHETIC_ONLY",
+  "flagged": [
+    {
+      "hour_utc": "2026-02-02T07:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.0854583,
+      "service": "api-gateway"
+    },
+    {
+      "hour_utc": "2026-02-02T07:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.07360744,
+      "service": "auth-svc"
+    },
+    {
+      "hour_utc": "2026-02-02T07:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.07360744,
+      "service": "billing-svc"
+    },
+    {
+      "hour_utc": "2026-02-02T07:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.07360744,
+      "service": "worker-svc"
+    },
+    {
+      "hour_utc": "2026-02-02T18:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.0854583,
+      "service": "api-gateway"
+    },
+    {
+      "hour_utc": "2026-02-02T18:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.07360744,
+      "service": "auth-svc"
+    },
+    {
+      "hour_utc": "2026-02-02T18:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.07360744,
+      "service": "billing-svc"
+    },
+    {
+      "hour_utc": "2026-02-02T18:00:00+00:00",
+      "label": "STATISTICAL_OUTLIER_NOT_CONFIRMED_INCIDENT",
+      "outlier_score": -0.07360744,
+      "service": "worker-svc"
+    }
+  ],
+  "flagged_test_windows": 8,
+  "last_training_hour": "2026-02-02T05:00:00+00:00",
+  "limitations": [
+    "Not a validated incident classifier",
+    "Unlabeled anomaly scores; no precision/recall claimed",
+    "Synthetic patterns are insufficient for production threshold selection"
+  ],
+  "split": "chronological_by_hour_across_services",
+  "test_windows": 80,
+  "training_windows": 120
+}

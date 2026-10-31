@@ -1,0 +1,8 @@
+[project]
+name = "i23-aiops-dirty-logs"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "Guarded log quality and exploratory AIOps triage — synthetic dirty data"
+
+[tool.setuptools.packages.find]
+where = ["src"]

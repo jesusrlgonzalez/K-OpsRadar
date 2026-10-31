@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "I23 Synthetic Educational LogRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ingest_id",
+    "event_id",
+    "timestamp",
+    "observed_timestamp",
+    "service",
+    "severity",
+    "message"
+  ],
+  "properties": {
+    "ingest_id": {
+      "type": "string"
+    },
+    "event_id": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "observed_timestamp": {
+      "type": "string"
+    },
+    "service": {
+      "type": "string"
+    },
+    "host": {
+      "type": "string"
+    },
+    "severity": {
+      "type": "string"
+    },
+    "http_status": {
+      "type": "string"
+    },
+    "duration_ms": {
+      "type": "string"
+    },
+    "trace_id": {
+      "type": "string"
+    },
+    "span_id": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    }
+  }
+}
